@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Getter
 @Entity
-public class Member extends BaseTimeEntity{
+public class Member{
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
